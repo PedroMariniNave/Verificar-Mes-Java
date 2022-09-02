@@ -33,7 +33,7 @@ public class Main {
             return;
         }
 
-        System.out.println("Dia " + day + " de " + month.getTranslation() + " de " + year + ".");
+        System.out.println("Dia " + day + " de " + month.getName() + " de " + year + ".");
     }
 
     private static int getDayFromInput(Scanner scanner) {

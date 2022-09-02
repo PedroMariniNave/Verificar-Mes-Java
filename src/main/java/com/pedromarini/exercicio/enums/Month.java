@@ -14,14 +14,14 @@ public enum Month {
     NOVEMBER("novembro"),
     DECEMBER("dezembro");
 
-    private final String translation;
+    private final String name;
 
-    Month(String translation) {
-        this.translation = translation;
+    Month(String name) {
+        this.name = name;
     }
 
-    public String getTranslation() {
-        return translation;
+    public String getName() {
+        return name;
     }
 
     public int getCalendarNumber() {
